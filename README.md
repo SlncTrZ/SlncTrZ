@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SlncTrZ/SlncTrZ/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/SlncTrZ/SlncTrZ/main/snake/github-contribution-grid-snake-dark.svg" />
 </p>
 
 ---
