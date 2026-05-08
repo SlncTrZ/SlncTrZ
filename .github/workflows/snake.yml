@@ -29,4 +29,4 @@ jobs:
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add snake/
           git diff --quiet && git diff --staged --quiet || git commit -m "Update snake contribution grid [skip ci]"
-          git push
+          git push origin main --force
