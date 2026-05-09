@@ -12,13 +12,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SlncTrZ&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SlncTrZ&layout=compact&theme=radical&hide_border=true&bg_color=0D1117" width="48%" />
-</p>
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/SlncTrZ/SlncTrZ/main/snake/github-contribution-grid-snake-dark.svg" />
 </p>
@@ -80,7 +73,7 @@ TFLite MobileNet SSD edge inference at ~100ms/frame, 15-state EKF dead reckoning
 [![MCP](https://img.shields.io/badge/MCP-6A0DAD?logo=protocol&logoColor=white)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
 
-6-wing memory architecture (tcdserver, openclaw, robotics, code_chronicles, omniscience_wiki, conversation) with nomic-embed-text 768-dim embeddings, semantic search, knowledge evolution tracking, and conversation recall.
+Multi-wing memory architecture (scalable via Qdrant collections) with nomic-embed-text 768-dim embeddings, semantic search, knowledge evolution tracking, and conversation recall.
 
 **[→ Repository](https://github.com/SlncTrZ/Memplace)**
 

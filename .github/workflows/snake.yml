@@ -15,6 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Remove old snake files
+        run: |
+          rm -rf snake/
+          echo "Removed old snake directory"
       - uses: Platane/snk@v3
         id: snake
         with:
@@ -22,11 +28,24 @@ jobs:
           outputs: |
             snake/github-contribution-grid-snake.svg
             snake/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - name: Debug snake files
+        run: |
+          echo "Snake directory contents:"
+          ls -la snake/
+          echo "SVG file differences:"
+          git status
       - name: Commit snake to main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add snake/
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update snake contribution grid [skip ci]"
-          git push origin main --force
+          echo "Checking for changes..."
+          if git diff --cached --quiet; then
+            echo "No changes to commit, skipping."
+          else
+            echo "Changes detected, committing..."
+            git commit -m "Update snake contribution grid - $(date -u +'%Y-%m-%d %H:%M:%S UTC') [skip ci]"
+            git push
+            echo "Pushed successfully."
+          fi
