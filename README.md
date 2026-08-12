@@ -20,22 +20,51 @@
 
 ## 🚀 Featured Projects
 
-### 🤖 MeiLin — Embodied Digital Intelligence
-> Humanoid robot designed to cross the Uncanny Valley — "One Brain, Many Bodies"
+### 🧠 Qwen3-0.6-Slnc-Finetune — Local LLM Fine-Tuning
+>
+> Fine-tune Qwen3-0.6B (EN+VI) with Unsloth QLoRA 4-bit on RTX 3090
 
-[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](https://python.org)
-[![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?logo=mediapipe&logoColor=white)]()
-[![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?logo=qt&logoColor=white)]()
-[![ROS2](https://img.shields.io/badge/ROS2-22314E?logo=ros&logoColor=white)]()
+[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)]()
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.6%2B-EE4C2C?logo=pytorch&logoColor=white)]()
+[![QLoRA](https://img.shields.io/badge/QLoRA-4--bit-6A0DAD?logo=unsloth&logoColor=white)]()
+[![Ollama](https://img.shields.io/badge/Ollama-GGUF%20Q4--K--M-000000?logo=ollama&logoColor=white)]()
+
+End-to-end fine-tuning pipeline: QLoRA 4-bit training on an EN+VI 50/50 dataset, merge to 16-bit, GGUF Q4_K_M export, and Ollama deployment with tuned generation parameters (temperature 0.7, top_p 0.9).
+
+**[→ Repository](https://github.com/SlncTrZ/Qwen3-0.6-Slnc-Finetune)**
+
+---
+
+### 🎬 MovieMaker — AI Video Production Studio
+>
+> Pipeline-driven AI video production — YAML pipelines, Markdown skills, chat agents
+
+[![Electron](https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=white)]()
+[![Node.js](https://img.shields.io/badge/Node.js-23%2B-339933?logo=nodedotjs&logoColor=white)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
 
-Virtual-First humanoid AI using BitVLA/VLM brain, ActionBus pub/sub command bus, behavioral emotion engine, and MediaPipe vision. Currently Phase 0 (Desktop Digital Twin).
+Local-first studio combining chat-driven storyboard workflows with pipeline architecture: 13 production pipelines, pluggable Markdown skill files, tool registry, and Google Flow free image/video generation — turn ideas and novels into finished videos.
 
-**[→ Repository](https://github.com/SlncTrZ/MeiLin_Project)**
+**[→ Repository](https://github.com/SlncTrZ/MovieMaker)**
+
+---
+
+### 📖 Ebook_Transalator — Agentic E-book Translation
+>
+> Automated E-book translation with an Agentic AI pipeline — research, translate, validate
+
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)]()
+[![7+ AI Vendors](https://img.shields.io/badge/AI--Vendors-7%2B-6A0DAD?logo=openai&logoColor=white)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
+
+Agentic translation pipeline (Research → HITL → Translate → Validation) with 7+ AI vendors, 12 genre-specific style guides, auto-generated glossaries, SHA-256 caching, and .epub export preserving original CSS.
+
+**[→ Repository](https://github.com/SlncTrZ/Ebook_Transalator)**
 
 ---
 
 ### 🎛️ ArtNetController — DMX Master LTS v1.3.0
+>
 > Professional Art-Net lighting control — 512 universes, RSA-signed licensing
 
 [![Python](https://img.shields.io/badge/Python-3.13%2B-3776AB?logo=python&logoColor=white)]()
@@ -50,6 +79,7 @@ Dual-tier licensing (FREE 4U / LICENSED 512U) with RSA-2048 signatures, AES-256 
 ---
 
 ### ✈️ UAV_FLyingwing — Modified BWB Flying Wing
+>
 > Edge AI UAV with GPS-denial resilience and quantum-inspired filtering research
 
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)]()
@@ -64,21 +94,6 @@ TFLite MobileNet SSD edge inference at ~100ms/frame, 15-state EKF dead reckoning
 
 ---
 
-### 🧠 Memplace — 6-Wing Memory Palace
-> Qdrant-backed AI knowledge management — 10 MCP tools for semantic memory
-
-[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)]()
-[![Qdrant](https://img.shields.io/badge/Qdrant-EE3322?logo=qdrant&logoColor=white)]()
-[![Ollama](https://img.shields.io/badge/Ollama-000000?logo=ollama&logoColor=white)]()
-[![MCP](https://img.shields.io/badge/MCP-6A0DAD?logo=protocol&logoColor=white)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
-
-Multi-wing memory architecture (scalable via Qdrant collections) with nomic-embed-text 768-dim embeddings, semantic search, knowledge evolution tracking, and conversation recall.
-
-**[→ Repository](https://github.com/SlncTrZ/Memplace)**
-
----
-
 ## 🛠️ Skills & Interests
 
 <p align="center">
@@ -90,7 +105,7 @@ Multi-wing memory architecture (scalable via Qdrant collections) with nomic-embe
 </p>
 
 | Domain | Technologies |
-|--------|-------------|
+| -------- | ------------- |
 | **Artificial Intelligence** | RAG Systems, LLM Orchestration (Gemma 4, Qwen), TensorFlow, ChromaDB, Qdrant |
 | **Drone Technology** | Flight Control Systems, BWB UAV Design, ArduPilot, MAVLink, Edge AI |
 | **Embedded Systems** | Raspberry Pi, STM32, BLDC Motors, Servo Control, PCA9685 |
