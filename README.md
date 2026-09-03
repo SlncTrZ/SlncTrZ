@@ -7,113 +7,133 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=435&lines=AI+%7C+Robotics+%7C+Drone;Embedded+Systems+%7C+Lighting" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=660&lines=Local-first+AI+Infrastructure;Agentic+Products+%7C+Robotics+%7C+UAV;Embedded+Systems+%7C+Lighting+Control" />
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SlncTrZ/SlncTrZ/main/snake/github-contribution-grid-snake-dark.svg" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SlncTrZ/SlncTrZ/main/snake/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SlncTrZ/SlncTrZ/main/snake/github-contribution-grid-snake.svg" />
+    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/SlncTrZ/SlncTrZ/main/snake/github-contribution-grid-snake.svg" />
+  </picture>
 </p>
 
 ---
 
 ## 🚀 Featured Projects
 
-### 🧠 Qwen3-0.6-Slnc-Finetune — Local LLM Fine-Tuning
+### 🛡️ SlncTrZ-MCP — Universal AI Capability Gateway
 >
-> Fine-tune Qwen3-0.6B (EN+VI) with Unsloth QLoRA 4-bit on RTX 3090
+> Local-first, policy-controlled MCP infrastructure for safely connecting AI clients to real machine capabilities.
 
-[![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)]()
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.6%2B-EE4C2C?logo=pytorch&logoColor=white)]()
-[![QLoRA](https://img.shields.io/badge/QLoRA-4--bit-6A0DAD?logo=unsloth&logoColor=white)]()
-[![Ollama](https://img.shields.io/badge/Ollama-GGUF%20Q4--K--M-000000?logo=ollama&logoColor=white)]()
+[![TypeScript](https://img.shields.io/badge/TypeScript-6.x-3178C6?logo=typescript&logoColor=white)]()
+[![MCP](https://img.shields.io/badge/Model%20Context%20Protocol-2.x-000000)]()
+[![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)]()
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-00ADD8)]()
 
-End-to-end fine-tuning pipeline: QLoRA 4-bit training on an EN+VI 50/50 dataset, merge to 16-bit, GGUF Q4_K_M export, and Ollama deployment with tuned generation parameters (temperature 0.7, top_p 0.9).
+Capability gateway with OAuth authentication, restricted/autonomous authority modes, canonical filesystem guards, atomic writes, SHA-256 conflict checks, controlled native command execution, auditable mutations, and pluggable MCP providers. This repository is actively dogfooded as the gateway used to operate the development workspace itself.
 
-**[→ Repository](https://github.com/SlncTrZ/Qwen3-0.6-Slnc-Finetune)**
+**[→ Repository](https://github.com/SlncTrZ/SlncTrZ-MCP)**
 
 ---
 
-### 🎬 MovieMaker — AI Video Production Studio
+### 📖 Ebook_Transalator — Agentic Translation Workbench
 >
-> Pipeline-driven AI video production — YAML pipelines, Markdown skills, chat agents
+> Local-first desktop translation pipeline with Research → HITL → Translate → deterministic QA.
 
-[![Electron](https://img.shields.io/badge/Electron-47848F?logo=electron&logoColor=white)]()
-[![Node.js](https://img.shields.io/badge/Node.js-23%2B-339933?logo=nodedotjs&logoColor=white)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
+[![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)]()
+[![Tauri](https://img.shields.io/badge/Tauri-Desktop-FFC131?logo=tauri&logoColor=black)]()
+[![React](https://img.shields.io/badge/React-TypeScript-61DAFB?logo=react&logoColor=black)]()
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)]()
 
-Local-first studio combining chat-driven storyboard workflows with pipeline architecture: 13 production pipelines, pluggable Markdown skill files, tool registry, and Google Flow free image/video generation — turn ideas and novels into finished videos.
-
-**[→ Repository](https://github.com/SlncTrZ/MovieMaker)**
-
----
-
-### 📖 Ebook_Transalator — Agentic E-book Translation
->
-> Automated E-book translation with an Agentic AI pipeline — research, translate, validate
-
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)]()
-[![7+ AI Vendors](https://img.shields.io/badge/AI--Vendors-7%2B-6A0DAD?logo=openai&logoColor=white)]()
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]()
-
-Agentic translation pipeline (Research → HITL → Translate → Validation) with 7+ AI vendors, 12 genre-specific style guides, auto-generated glossaries, SHA-256 caching, and .epub export preserving original CSS.
+Resumable persisted jobs, multi-provider LLM gateway, Translation Memory, glossary/HITL workflows, deterministic QA, bilingual inspection, and source-preserving EPUB export. Windows desktop packaging and packaged runtime smoke tests are already verified; the project is in v1.0 release hardening.
 
 **[→ Repository](https://github.com/SlncTrZ/Ebook_Transalator)**
 
 ---
 
-### 🎛️ ArtNetController — DMX Master LTS v1.3.0
+### 🎛️ ArtNetController — DMX Master LTS
 >
-> Professional Art-Net lighting control — 512 universes, RSA-signed licensing
+> Professional Art-Net / DMX512 lighting control spanning software, networking, licensing, and physical I/O.
 
 [![Python](https://img.shields.io/badge/Python-3.13%2B-3776AB?logo=python&logoColor=white)]()
 [![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?logo=qt&logoColor=white)]()
-[![Art-Net](https://img.shields.io/badge/Art--Net-FF6F00?logo=ethernet&logoColor=white)]()
-[![Platform](https://img.shields.io/badge/Win%20%7C%20Linux%20%7C%20RPi-00ADD8?logo=windows&logoColor=white)]()
+[![Art-Net](https://img.shields.io/badge/Art--Net-DMX512-FF6F00)]()
+[![Platform](https://img.shields.io/badge/Windows%20%7C%20Linux%20%7C%20RPi-00ADD8)]()
 
-Dual-tier licensing (FREE 4U / LICENSED 512U) with RSA-2048 signatures, AES-256 encryption, hardware binding, IOBoard serial DMX integration, web remote control, and live DMX monitoring.
+Professional lighting controller with up to 512 universes, Art-Net networking, serial DMX IOBoard integration, web remote control, live monitoring, RSA-2048 signed licensing, AES-256 protected configuration, hardware binding, and desktop packaging.
 
 **[→ Repository](https://github.com/SlncTrZ/ArtNetController)**
 
 ---
 
-### ✈️ UAV_FLyingwing — Modified BWB Flying Wing
+### 🏭 AI-Apps — AI Production Factory
 >
-> Edge AI UAV with GPS-denial resilience and quantum-inspired filtering research
+> A reusable production ecosystem, not a single AI app.
+
+[![AI](https://img.shields.io/badge/AI-Production%20Factory-6A0DAD)]()
+[![Video](https://img.shields.io/badge/Image%20%2F%20Video-Pipelines-FF4B4B)]()
+[![Voice](https://img.shields.io/badge/Voice%20%2F%20TTS-OmniVoice-339933)]()
+
+Factory-level architecture that composes reusable capabilities such as SlncTrZ_VMK, Slnc_VideoAdapter, OmniVoice and dia-mcp into production domains. The first domain is YPP, while the structure is designed to expand to short film, audiobook, advertising and other automated media workloads without duplicating infrastructure.
+
+**[→ Repository](https://github.com/SlncTrZ/AI-Apps)**
+
+---
+
+### 🤖 MeiLin_Project — Embodied Digital Intelligence
+>
+> "One Brain, Many Bodies" — virtual-first humanoid robotics architecture.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)]()
-[![TFLite](https://img.shields.io/badge/TFLite-FF6F00?logo=tensorflow&logoColor=white)]()
-[![ArduPilot](https://img.shields.io/badge/ArduPilot-005C8A?logo=ardupilot&logoColor=white)]()
-[![RPi](https://img.shields.io/badge/Raspberry%20Pi-A22846?logo=raspberrypi&logoColor=white)]()
-[![MAVLink](https://img.shields.io/badge/MAVLink-FF6600?logo=mavlink&logoColor=white)]()
+[![Robotics](https://img.shields.io/badge/Robotics-Embodied%20AI-22314E)]()
+[![Edge AI](https://img.shields.io/badge/Edge--First-Local%20Inference-A22846)]()
 
-TFLite MobileNet SSD edge inference at ~100ms/frame, 15-state EKF dead reckoning, 5G BVLOS communication, 25-30 min flight time, 6kg payload. Research: Variational Quantum Circuit for MEMS sensor noise filtering.
+Core-centric embodied AI research built around a shared ActionBus so one intelligence can drive multiple bodies, beginning with a Desktop Digital Twin before moving to physical robotics. Focus areas include biological motion, virtual/physical parity, local inference and human-facing interaction.
+
+**[→ Repository](https://github.com/SlncTrZ/MeiLin_Project)**
+
+---
+
+### ✈️ UAV_FLyingwing — Modified BWB Flying Wing
+>
+> Edge-AI UAV research with GPS-denial resilience, flight control, simulation and ground-station tooling.
+
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)]()
+[![ArduPilot](https://img.shields.io/badge/ArduPilot-005C8A?logo=ardupilot&logoColor=white)]()
+[![MAVLink](https://img.shields.io/badge/MAVLink-FF6600)]()
+[![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?logo=raspberrypi&logoColor=white)]()
+
+Modified blended-wing-body platform combining ArduPilot/MAVLink flight systems with edge inference, dead-reckoning research, GPS-denial resilience, simulation, modeling and ground-control software.
 
 **[→ Repository](https://github.com/SlncTrZ/UAV_FLyingwing)**
 
 ---
 
-## 🛠️ Skills & Interests
+## 🧪 Labs & Specialized Systems
 
-<p align="center">
-  <img src="https://img.shields.io/badge/AI%20%26%20ML-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Robotics-22314E?style=for-the-badge&logo=ros&logoColor=white" />
-  <img src="https://img.shields.io/badge/Drone-005C8A?style=for-the-badge&logo=ardupilot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Embedded-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Lighting-FFD700?style=for-the-badge&logo=philips&logoColor=black" />
-</p>
-
-| Domain | Technologies |
-| -------- | ------------- |
-| **Artificial Intelligence** | RAG Systems, LLM Orchestration (Gemma 4, Qwen), TensorFlow, ChromaDB, Qdrant |
-| **Drone Technology** | Flight Control Systems, BWB UAV Design, ArduPilot, MAVLink, Edge AI |
-| **Embedded Systems** | Raspberry Pi, STM32, BLDC Motors, Servo Control, PCA9685 |
-| **Lighting Design** | Art-Net Protocol, DMX512, Musical Fountain, Architectural Lighting |
+- **AI_DMX_Autopilot** — AI-assisted DMX show learning/generation pipeline with audio analysis, ML training, FastAPI backend and React frontend.
+- **Forex-AI** — live cent-account research harness comparing deterministic and LLM-assisted decisions behind a deterministic risk gate.
+- **Slnc_Pi** — personal Pi coding-agent extensions, skills, reproducible configuration and local AI tooling.
+- **LLM Fine-tuning** — Qwen-family local training, QLoRA/GGUF experimentation and local-model deployment workflows.
 
 ---
 
-## 🌐 Connect with Me
+## 🛠️ Engineering Domains
+
+| Domain | Focus |
+| --- | --- |
+| **AI Infrastructure** | MCP gateways, LLM orchestration, local-first systems, agent tooling, RAG / memory |
+| **AI Products** | Agentic workflows, translation, media production, desktop applications |
+| **Robotics & UAV** | Embodied AI, ArduPilot, MAVLink, flight systems, edge inference |
+| **Embedded Systems** | Raspberry Pi, STM32-class systems, serial protocols, actuators and sensors |
+| **Lighting Control** | Art-Net, DMX512, show control, architectural and entertainment lighting |
+
+---
+
+## 🌐 Connect
 
 <p align="center">
   <a href="https://github.com/SlncTrZ">
