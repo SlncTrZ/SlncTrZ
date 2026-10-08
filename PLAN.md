@@ -2,7 +2,7 @@
 
 **Repository:** `SlncTrZ/SlncTrZ`
 **Workspace:** `/mnt/pc-dev/My_Profile`
-**Updated:** 2026-09-06
+**Updated:** 2026-10-08
 
 ## 1. Goal
 
@@ -10,7 +10,7 @@ Biến GitHub profile thành trang đại diện đúng cho năng lực hiện t
 
 North star:
 
-> Local-first AI infrastructure + production systems + robotics/UAV + embedded/lighting engineering.
+> Local-first AI infrastructure & agent memory + Computational Engineering (CAD/ECAD OS) + production desktop systems + robotics/UAV + embedded/lighting engineering.
 
 Profile không nên trông như một tập hợp demo AI rời rạc. Nó phải thể hiện khả năng xây infrastructure, ship product và kết nối software với hệ thống vật lý.
 
@@ -19,17 +19,19 @@ Profile không nên trông như một tập hợp demo AI rời rạc. Nó phả
 Thứ tự flagship hiện tại:
 
 1. **SlncTrZ-MCP** — Universal AI Capability Gateway
-2. **Ebook_Transalator** — Agentic Translation Workbench
-3. **ArtNetController** — Professional DMX / Art-Net Controller
-4. **AI-Apps** — AI Production Factory
-5. **MeiLin_Project** — Embodied Digital Intelligence
+2. **CyberBrain** — Portable Agent Knowledge & Episodic Memory Infrastructure
+3. **CDT_Engineer & CDT Suite** — Engineering OS & CAD/ECAD Execution Engines (AutoCAD, SolidWorks, SketchUp, Blender, KiCAD)
+4. **Ebook_Transalator** — Agentic Translation Workbench
+5. **ArtNetController** — Professional DMX / Art-Net Controller LTS
 6. **UAV_FLyingwing** — Edge-AI UAV Platform
 
-Nhóm Labs / Specialized Systems:
+Nhóm Labs / Specialized Systems & Internal R&D:
 
-- AI_DMX_Autopilot
-- Forex-AI
-- Slnc_Pi
+- AI-Apps (Private / Enterprise)
+- MeiLin_Project (Private / Research)
+- forex-ai (Live cent-account risk gate harness)
+- AI_DMX_Autopilot (Private / Research)
+- Slnc_Pi (Personal agent extensions)
 - Local LLM fine-tuning / QLoRA / GGUF workflows
 
 ### Rule
@@ -88,6 +90,8 @@ main = canonical development + GitHub default branch
 ```
 
 Feature/fix branch phải ngắn hạn và merge về `main`.
+
+Nhóm CDT (`CDT_Engineer`, `CDT-AutoCAD`, `CDT-SolidWorks`, `CDT-SketchUp`, `CDT-Blender`, `CDT-KiCAD`) và `CyberBrain` đã chuẩn hóa 100% trên canonical `main`, tracking `origin/main` qua SSH transport.
 
 ### Legacy repositories hiện còn `master`
 
@@ -198,16 +202,19 @@ Khi nghi contribution bị thiếu:
 
 ### Phase C — Portfolio evidence
 
-Audit artifact hiện có ngày 2026-09-06 (số test bên dưới là **file hiện diện**, không phải claim test đang PASS):
+Audit artifact hiện có ngày 2026-10-08 (số test bên dưới là **file hiện diện**, không phải claim test đang PASS):
 
 | Project | Evidence đã thấy trong repo | Gap cần đưa lên public profile |
 | --- | --- | --- |
 | SlncTrZ-MCP | `ci.yml`, `standalone.yml`, 247 test files, `ARCHITECTURE.md`, release docs, tags đến `v0.2.4` | architecture diagram/screenshot + CI/release badges |
+| CyberBrain | `ci.yml`, Schema V2 tests, Qdrant/FastEmbed integration, M3–M7 cognitive pipeline, release v0.3.0 | public CI badge + architecture diagram |
+| CDT_Engineer | Alpha7 release, 19 MCP tools, Design Basis/Role/Skill contracts, chunk streaming, QA Checker | workflow diagram + contract docs summary |
+| CDT Engines (`AutoCAD`, `SolidWorks`, `SketchUp`, `Blender`, `KiCAD`) | AutoCAD 2027 (87 tools, COM + .NET bridge), SOLIDWORKS 2024 (COM API), SketchUp (Ruby bridge), Blender (bpy), KiCad (IPC) | certified target host table + demo recordings |
 | Ebook Translator | `windows-native.yml`, `WINDOWS_RELEASE.md`, 31 test files | packaged-app screenshot + public release/tag evidence |
 | ArtNetController | `build.yml`, `assets/DMXMaster.png`, architecture/release/build docs, 9 test files | audit stale version/link + ảnh UI/hardware thực tế + clean working state |
-| AI-Apps | architecture ở các capability/subproject, VMK visual assets | thiếu repo-level CI/evidence summary; cần factory diagram |
-| MeiLin | `ci.yml`, architecture docs, virtual/3D assets, 20 test files | digital-twin/demo capture có thể đánh giá trong 30–60 giây |
 | UAV | `test.yml`, architecture docs, modeling photos, 20 test files | CAD/telemetry/SITL hoặc flight-test evidence rõ ràng |
+| AI-Apps | architecture ở các capability/subproject, VMK visual assets | private repo; giữ ở Labs/Internal |
+| MeiLin | `ci.yml`, architecture docs, virtual/3D assets, 20 test files | private repo; giữ ở Labs/Internal |
 
 Actions:
 
