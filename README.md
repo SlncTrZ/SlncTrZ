@@ -35,6 +35,12 @@
 
 Capability gateway with OAuth authentication, restricted/autonomous authority modes, canonical filesystem guards, atomic writes, SHA-256 conflict checks, controlled native command execution, auditable mutations, and pluggable MCP providers. This repository is actively dogfooded as the gateway used to operate the development workspace itself.
 
+<p align="center">
+  <a href="https://github.com/SlncTrZ/SlncTrZ-MCP">
+    <img src="https://raw.githubusercontent.com/SlncTrZ/SlncTrZ-MCP/main/docs/SlncTrZ-MCP-intro.svg" alt="SlncTrZ-MCP Capability Gateway" width="100%">
+  </a>
+</p>
+
 **[→ Repository](https://github.com/SlncTrZ/SlncTrZ-MCP)**
 
 ---
